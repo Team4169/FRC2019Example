@@ -23,7 +23,7 @@ public class Robot extends TimedRobot {
 
   @Override
   public void robotInit() {
-    m_myRobot = new DifferentialDrive(new Talon(0), new Talon(1));
+    m_myRobot = new DifferentialDrive(new Talon(0), new Talon(2));
   }
 
   @Override
