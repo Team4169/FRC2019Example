@@ -7,23 +7,6 @@ package frc.robot;
 * Add your docs here.
 */
 public class OI {
-  HashMap<String, Integer> buttons = new HashMap<String, Integer>();
-  buttons.put("A", 0);
-  buttons.put("B", 1);
-  buttons.put("X", 2);
-  buttons.put("Y", 3);
-  buttons.put("LB", 4);
-  buttons.put("RB", 5);
-  buttons.put("LT", 6);
-  buttons.put("RT", 7);
-  buttons.put("BACK", 8);
-  buttons.put("START", 9);
-  buttons.put("LeftJoystickButton", 10);
-  buttons.put("RightJoystickButton", 11);
-  buttons.put("UP", 12);
-  buttons.put("DOWN", 13);
-  buttons.put("LEFT", 14);
-  buttons.put("RIGHT", 15);
  public static final double DEAD_ZONE = 0.2;
  // Put methods for controlling this subsystem
  // here. Call these from Commands.
